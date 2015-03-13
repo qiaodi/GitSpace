@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoukuTicket</string>
+    <string name="desc">Desc</string>
+    <!-- TabHost -->
+    <string name="tabitem_home">Home</string>
+    <string name="tabitem_cinema">Cinema</string>
+    <string name="tabitem_movie">Movie</string>
+    <string name="tabitem_user_account">User</string>
+    <string name="tabitem_comments">Comments</string>
+    <!-- MainPage -->
+    <string name="hot_movie_header">Hot Movie</string>
+    <string name="hot_movie_header_more">More</string>
+    <string name="hot_cinema_header">Hot Cinema</string>
+    <!-- Comments -->
+    <string name="comment_header_hot">Hot Comments</string>
+    <string name="comment_header_new">New Comments</string>
+    <!-- Cinema -->
+    <string name="cinema_radio_all">All</string>
+    <string name="cinema_radio_select">Select</string>
+    <string name="cinema_radio_sale">Sale</string>
+    <string name="cinema_radio_fliter">Fliter</string>
+    <!-- CinemaSchedule -->
+	<string name="cinema_details_button">Details</string>
+	<string name="cinema_sale_button">GroupSale</string>
+	<!-- MoviePage -->
+	<string name="movie_tab_showing">Showing</string>
+	<string name="movie_tab_coming">Coming</string>
+	<string name="movie_tab_classic">Classic</string>
+	<string name="movie_page_buy">Buy</string>
+</resources>

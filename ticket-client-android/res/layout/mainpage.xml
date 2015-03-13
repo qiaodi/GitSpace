@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/poster_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:id="@+id/hot_movie_header"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_below="@id/poster_flipper"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hot_movie_header_txt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:text="@string/hot_movie_header" />
+
+            <Button
+                android:id="@+id/hot_movie_header_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="#00000000"
+                android:drawableEnd="@drawable/actionbar_more_normal"
+                android:drawableRight="@drawable/actionbar_more_normal"
+                android:text="@string/hot_movie_header_more"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/hot_movie_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hot_movie_header"
+            android:numColumns="3" />
+
+        <LinearLayout
+            android:id="@+id/hot_cinema_header"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_below="@id/hot_movie_gridview"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hot_cinema_header_txt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:text="@string/hot_cinema_header" />
+
+            <Button
+                android:id="@+id/hot_cinema_header_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="#00000000"
+                android:drawableEnd="@drawable/actionbar_more_normal"
+                android:drawableRight="@drawable/actionbar_more_normal"
+                android:text="@string/hot_movie_header_more"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/hot_cinema_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hot_cinema_header"
+            android:numColumns="1" />
+    </RelativeLayout>
+
+</ScrollView>

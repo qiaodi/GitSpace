@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/realtabcontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.youku.ticket.app.views.Switch
+            android:id="@+id/comment_header_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="0dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/comments_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</FrameLayout>

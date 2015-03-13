@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">优酷电影票</string>
+    <string name="desc">Desc</string>
+    <!-- TabHost -->
+    <string name="tabitem_home">首页</string>
+    <string name="tabitem_cinema">影院</string>
+    <string name="tabitem_movie">影片</string>
+    <string name="tabitem_user_account">我的</string>
+    <string name="tabitem_comments">评论</string>
+    <!-- MainPage -->
+    <string name="hot_movie_header">热映电影</string>
+    <string name="hot_movie_header_more">More</string>
+    <string name="hot_cinema_header">热门影院</string>
+    <!-- Comments -->
+    <string name="comment_header_hot">热门影评</string>
+    <string name="comment_header_new">新片影评</string>
+    <!-- Cinema -->
+    <string name="cinema_radio_all">全部</string>
+    <string name="cinema_radio_select">选座</string>
+    <string name="cinema_radio_sale">团购</string>
+    <string name="cinema_radio_fliter">筛选</string>
+    <!-- CinemaSchedule -->
+    <string name="cinema_details_button">查看</string>
+    <string name="cinema_sale_button">团购购票</string>
+    <!-- MoviePage -->
+    <string name="movie_tab_showing">正在热映</string>
+    <string name="movie_tab_coming">即将上映</string>
+    <string name="movie_tab_classic">经典回顾</string>
+    <string name="movie_page_buy">购买</string>
+
+</resources>
